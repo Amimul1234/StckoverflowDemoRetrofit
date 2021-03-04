@@ -18,7 +18,7 @@ public class RetrofitClient {
 
 
         //your base url with port number goes here
-        String baseUrl = "http://192.168.0.2";
+        String baseUrl = "http://192.168.1.46:4046";
 
         retrofit = new Retrofit.Builder()
                 .baseUrl(baseUrl)
